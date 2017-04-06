@@ -1,0 +1,1201 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /*  background: url(../images/1.jpg) center center no-repeat;
+    background-size: 100%;*/
+    /*position: fixed;*/
+}
+
+.s-skin-container {
+    position: fixed;
+    _position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    min-width: 1000px;
+    z-index: -10;
+    background-position: center 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    zoom: 1;
+    background: url(../images/1.jpg) center center no-repeat;
+    background-size: 100% 100%;
+}
+
+
+/*导航浮动*/
+
+header {
+    overflow: hidden;
+}
+
+
+/*导航*/
+
+nav {
+    width: 100%;
+    min-width: 1000px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.55);
+    color: #fff;
+}
+
+
+/*左侧导航*/
+
+nav .leftNav {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 300px;
+    height: 30px;
+    line-height: 30px;
+    float: left;
+    padding-left: 0px;
+}
+
+
+/*右侧导航*/
+
+nav .rightNav {
+    width: 495px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 30px;
+    line-height: 30px;
+    float: right;
+}
+
+
+/*li整体样式的设置*/
+
+.leftNav li,
+.rightNav li {
+    list-style-type: none;
+    float: left;
+    margin: 2px 10px 0px 10px;
+    *margin: 2px 10px 0px 10px;
+}
+
+.leftNav li a,
+.rightNav li a {
+    color: #fff;
+    color: #fff\0;
+    _color: #fff;
+    font-size: 13px;
+}
+
+
+/*更多链接*/
+
+.rightNav .moreNav {
+    margin-top: 0px;
+    *margin-top: 0px;
+    background: #38f;
+}
+
+li.moreNav a {
+    text-decoration: none;
+    /*去掉 a 的下划线*/
+    /*color: #fff;
+    _color: #fff;
+    color: #fff\0;*/
+    color: #000;
+    _color: #000;
+    color: #000\0;
+}
+
+.logoAndFrom {
+    text-align: center;
+    position: relative;
+    margin-top: 50px;
+}
+
+
+/*换肤*/
+
+.changeImage {
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    background: #fff;
+    z-index: 400;
+    left: 0;
+    top: 0px;
+    display: none;
+    /*background: red;*/
+    border-bottom: 1px solid #ddd;
+}
+
+.changeImage .showImage {
+    width: 300px;
+    height: 190px;
+    background-color: #fff;
+    position: absolute;
+    right: 50px;
+    top: 65px;
+}
+
+.changeImage .showImage .skinback {
+    width: 100%;
+    height: 100%;
+}
+
+.changeImage .showImage .skinback img {
+    width: 100%;
+    height: 100%;
+}
+
+.changeImage .showImage .skinfix {
+    height: 30px;
+    background: url(../images/plus_logo.png) center 17% no-repeat;
+    background-size: 100px 26px;
+    position: absolute;
+    top: 39px;
+    width: 300px;
+}
+
+
+/*头部*/
+
+.changeHeader {
+    width: 100%;
+    height: 30px;
+    border-bottom: 1px solid #ddd;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+/*分类*/
+
+.changeHeader .classify {
+    width: 910px;
+    margin: 0 auto;
+}
+
+
+/*分类标签*/
+
+.changeHeader .classify li a {
+    color: #4a4a4a;
+    text-decoration: none;
+    display: block;
+    margin-top: -3px;
+    width: 40px;
+    text-align: center;
+}
+
+.changeHeader .classify .four a {
+    width: 55px;
+}
+
+.changeHeader .classify li .showTitle {
+    color: #fff;
+    text-decoration: none;
+    background-color: #389cff;
+    text-align: center;
+    width: 40px;
+}
+
+.changeHeader .classify .four .showTitle {
+    width: 55px;
+}
+
+.changeHeader .upchange {
+    width: 440px;
+    float: left;
+    margin-top: -4px;
+}
+
+.changeHeader .backaplac {
+    position: relative;
+    width: 257px;
+    float: left;
+}
+
+.changeHeader .upchange .nochange {
+    float: left;
+    color: #000;
+    margin-left: 20px;
+    margin-top: 5px;
+    font-size: 13px;
+}
+
+.changeImage .up {
+    position: absolute;
+    top: 6px;
+    right: 130px;
+    width: 40px;
+    height: 30px;
+    color: #000;
+    font-size: 13px;
+}
+
+
+/*透明度这几个标题*/
+
+.changeHeader .upchange .sptitle {
+    color: #4a4a4a;
+    font-size: 13px;
+    margin-right: 10px;
+    display: inline-block;
+    margin-top: 4px;
+    margin-left: 31px;
+}
+
+.changeHeader .upchange .aplVal {
+    position: absolute;
+    color: #4a4a4a;
+    font-size: 12px;
+    height: 10px;
+    top: -8px;
+}
+
+.changeHeader .upchange input {
+    position: absolute;
+    bottom: 6px;
+}
+
+
+/*热门*/
+
+.changeHeader .classify .first {
+    position: relative;
+}
+
+.changeHeader .classify .first .hotClass,
+.changeHeader .classify .second .playClass,
+.changeHeader .classify .three .kaTongClass,
+.changeHeader .classify .four .girlClass,
+.changeHeader .classify .five .starClass,
+.changeHeader .classify .six .fengClass,
+.changeHeader .classify .seven .jianClass,
+.changeHeader .classify .eight .xinClass {
+    height: 179px;
+    width: 585px;
+    position: absolute;
+    top: 60px;
+    left: 0px;
+    display: none;
+    cursor: pointer;
+}
+
+.changeHeader .classify .second .playClass,
+.changeHeader .classify .three .kaTongClass,
+.changeHeader .classify .four .girlClass,
+.changeHeader .classify .five .starClass,
+.changeHeader .classify .six .fengClass,
+.changeHeader .classify .seven .jianClass,
+.changeHeader .classify .eight .xinClass {
+    position: absolute;
+    left: 178px;
+}
+
+.changeHeader .classify .first .hotClass {
+    display: block;
+}
+
+.changeHeader .classify .first .hotClass .one,
+.changeHeader .classify .second .playClass .one,
+.changeHeader .classify .three .kaTongClass .one,
+.changeHeader .classify .four .girlClass .one,
+.changeHeader .classify .five .starClass .one,
+.changeHeader .classify .six .fengClass .one,
+.changeHeader .classify .seven .jianClass .one,
+.changeHeader .classify .eight .xinClass .one {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.changeHeader .classify .first .hotClass .hoverClass1,
+.changeHeader .classify .first .hotClass .hoverClass2,
+.changeHeader .classify .first .hotClass .hoverClass3,
+.changeHeader .classify .first .hotClass .hoverClass4,
+.changeHeader .classify .first .hotClass .hoverClass5,
+.changeHeader .classify .first .hotClass .hoverClass6,
+.changeHeader .classify .first .hotClass .hoverClass7,
+.changeHeader .classify .first .hotClass .hoverClass8,
+.changeHeader .classify .first .hotClass .hoverClass9,
+.changeHeader .classify .first .hotClass .hoverClass10,
+.changeHeader .classify .first .hotClass .hoverClass11,
+.changeHeader .classify .first .hotClass .hoverClass12 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    line-height: 122px;
+    opacity: 0;
+}
+
+.changeHeader .classify .first .hotClass .two,
+.changeHeader .classify .second .playClass .two,
+.changeHeader .classify .three .kaTongClass .two,
+.changeHeader .classify .four .girlClass .two,
+.changeHeader .classify .five .starClass .two,
+.changeHeader .classify .six .fengClass .two,
+.changeHeader .classify .seven .jianClass .two,
+.changeHeader .classify .eight .xinClass .two,
+.changeHeader .classify .first .hotClass .hoverClass2 {
+    position: absolute;
+    left: 198px;
+    top: 0px;
+}
+
+.changeHeader .classify .first .hotClass .hoverClass2 {
+    line-height: 60px;
+}
+
+.changeHeader .classify .first .hotClass .three,
+.changeHeader .classify .second .playClass .three,
+.changeHeader .classify .three .kaTongClass .three,
+.changeHeader .classify .four .girlClass .three,
+.changeHeader .classify .five .starClass .three,
+.changeHeader .classify .six .fengClass .three,
+.changeHeader .classify .seven .jianClass .three,
+.changeHeader .classify .eight .xinClass .three,
+.changeHeader .classify .first .hotClass .hoverClass3 {
+    position: absolute;
+    left: 198px;
+    top: 62px;
+}
+
+.changeHeader .classify .first .hotClass .hoverClass3 {
+    line-height: 60px;
+}
+
+.changeHeader .classify .first .hotClass .four,
+.changeHeader .classify .first .hotClass .four,
+.changeHeader .classify .second .playClass .four,
+.changeHeader .classify .three .kaTongClass .four,
+.changeHeader .classify .four .girlClass .four,
+.changeHeader .classify .five .starClass .four,
+.changeHeader .classify .six .fengClass .four,
+.changeHeader .classify .seven .jianClass .four,
+.changeHeader .classify .eight .xinClass .four,
+.changeHeader .classify .first .hotClass .hoverClass4 {
+    position: absolute;
+    left: 495px;
+    top: 62px;
+}
+
+.changeHeader .classify .first .hotClass .hoverClass4 {
+    line-height: 60px;
+}
+
+.changeHeader .classify .first .hotClass .five,
+.changeHeader .classify .first .hotClass .five,
+.changeHeader .classify .second .playClass .five,
+.changeHeader .classify .three .kaTongClass .five,
+.changeHeader .classify .four .girlClass .five,
+.changeHeader .classify .five .starClass .five,
+.changeHeader .classify .six .fengClass .five,
+.changeHeader .classify .seven .jianClass .five,
+.changeHeader .classify .eight .xinClass .five,
+.changeHeader .classify .first .hotClass .hoverClass5 {
+    position: absolute;
+    left: 396px;
+    top: 0;
+}
+
+.changeHeader .classify .first .hotClass .hoverClass5 {
+    line-height: 60px;
+}
+
+.changeHeader .classify .first .hotClass .six,
+.changeHeader .classify .first .hotClass .six,
+.changeHeader .classify .second .playClass .six,
+.changeHeader .classify .three .kaTongClass .six,
+.changeHeader .classify .four .girlClass .six,
+.changeHeader .classify .five .starClass .six,
+.changeHeader .classify .six .fengClass .six,
+.changeHeader .classify .seven .jianClass .six,
+.changeHeader .classify .eight .xinClass .six,
+.changeHeader .classify .first .hotClass .hoverClass6 {
+    position: absolute;
+    left: 297px;
+    top: 62px;
+}
+
+.changeHeader .classify .first .hotClass .hoverClass6 {
+    line-height: 122px;
+}
+
+.changeHeader .classify .first .hotClass .seven,
+.changeHeader .classify .first .hotClass .seven,
+.changeHeader .classify .second .playClass .seven,
+.changeHeader .classify .three .kaTongClass .seven,
+.changeHeader .classify .four .girlClass .seven,
+.changeHeader .classify .five .starClass .seven,
+.changeHeader .classify .six .fengClass .seven,
+.changeHeader .classify .seven .jianClass .seven,
+.changeHeader .classify .eight .xinClass .seven,
+.changeHeader .classify .first .hotClass .hoverClass7 {
+    position: absolute;
+    left: 0px;
+    top: 122px;
+}
+
+.changeHeader .classify .first .hotClass .hoverClass7 {
+    line-height: 60px;
+}
+
+.changeHeader .classify .first .hotClass .eight,
+.changeHeader .classify .first .hotClass .eight,
+.changeHeader .classify .second .playClass .eight,
+.changeHeader .classify .three .kaTongClass .eight,
+.changeHeader .classify .four .girlClass .eight,
+.changeHeader .classify .five .starClass .eight,
+.changeHeader .classify .six .fengClass .eight,
+.changeHeader .classify .seven .jianClass .eight,
+.changeHeader .classify .eight .xinClass .eight,
+.changeHeader .classify .first .hotClass .hoverClass8 {
+    position: absolute;
+    top: 122px;
+    left: 99px;
+}
+
+.changeHeader .classify .first .hotClass .hoverClass8 {
+    line-height: 60px;
+}
+
+.changeHeader .classify .first .hotClass .nine,
+.changeHeader .classify .first .hotClass .nine,
+.changeHeader .classify .second .playClass .nine,
+.changeHeader .classify .three .kaTongClass .nine,
+.changeHeader .classify .four .girlClass .nine,
+.changeHeader .classify .five .starClass .nine,
+.changeHeader .classify .six .fengClass .nine,
+.changeHeader .classify .seven .jianClass .nine,
+.changeHeader .classify .eight .xinClass .nine,
+.changeHeader .classify .first .hotClass .hoverClass9 {
+    position: absolute;
+    top: 123px;
+    left: 198px;
+}
+
+.changeHeader .classify .first .hotClass .hoverClass9 {
+    line-height: 60px;
+}
+
+.changeHeader .classify .first .hotClass .ten,
+.changeHeader .classify .first .hotClass .ten,
+.changeHeader .classify .second .playClass .ten,
+.changeHeader .classify .three .kaTongClass .ten,
+.changeHeader .classify .four .girlClass .ten,
+.changeHeader .classify .five .starClass .ten,
+.changeHeader .classify .six .fengClass .ten,
+.changeHeader .classify .seven .jianClass .ten,
+.changeHeader .classify .eight .xinClass .ten,
+.changeHeader .classify .first .hotClass .hoverClass10 {
+    position: absolute;
+    left: 297px;
+}
+
+.changeHeader .classify .first .hotClass .hoverClass10 {
+    line-height: 60px;
+}
+
+.changeHeader .classify .first .hotClass .eleven,
+.changeHeader .classify .first .hotClass .eleven,
+.changeHeader .classify .second .playClass .eleven,
+.changeHeader .classify .three .kaTongClass .eleven,
+.changeHeader .classify .four .girlClass .eleven,
+.changeHeader .classify .five .starClass .eleven,
+.changeHeader .classify .six .fengClass .eleven,
+.changeHeader .classify .seven .jianClass .eleven,
+.changeHeader .classify .eight .xinClass .eleven,
+.changeHeader .classify .first .hotClass .hoverClass11 {
+    position: absolute;
+    left: 495px;
+    top: 0px;
+}
+
+.changeHeader .classify .first .hotClass .hoverClass11 {
+    line-height: 60px;
+}
+
+.changeHeader .classify .first .hotClass .twel,
+.changeHeader .classify .first .hotClass .twel,
+.changeHeader .classify .second .playClass .twel,
+.changeHeader .classify .three .kaTongClass .twel,
+.changeHeader .classify .four .girlClass .twel,
+.changeHeader .classify .five .starClass .twel,
+.changeHeader .classify .six .fengClass .twel,
+.changeHeader .classify .seven .jianClass .twel,
+.changeHeader .classify .eight .xinClass .twel,
+.changeHeader .classify .first .hotClass .hoverClass12 {
+    position: absolute;
+    left: 495px;
+    top: 124px;
+}
+
+.changeHeader .classify .first .hotClass .hoverClass12 {
+    line-height: 60px;
+}
+
+.logo {
+    width: 175px;
+    height: 54px;
+}
+
+#form {
+    margin: 22px auto 0;
+    *margin: 22px auto 0;
+    width: 644px;
+    text-align: left;
+    z-index: 100;
+}
+
+.inputDiv {
+    background-image: none;
+    position: relative;
+    background: #fff;
+    display: inline-block;
+    vertical-align: top;
+    width: 539px;
+    border-right-width: 0;
+}
+
+
+/*更多按钮div*/
+
+.more {
+    padding: 0 17px 0 17px;
+}
+
+.more .product {
+    color: #fff;
+}
+
+.inputDiv input {
+    float: left;
+    width: 535px;
+    height: 34px;
+    border: 0;
+    border: 1px solid #b6b6b6;
+    border-color: #b8b8b8 #fff #ccc #b8b8b8;
+}
+
+.inputDiv input:focus {
+    outline: none;
+    border: 1px solid #2d78f4;
+    border-color: #2d78f4 #fff #2d78f4 #2d78f4;
+}
+
+
+/*麦克风*/
+
+.ipt_rec {
+    z-index: 1;
+    position: absolute;
+    height: 34px;
+    width: 24px;
+    right: 39px;
+    top: 4%;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAASCAYAAACAa1QyAAAAAXNSR0IArs4c6QAAAAlwSFlzAAALEwAACxMBAJqcGAAAAVlpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IlhNUCBDb3JlIDUuNC4wIj4KICAgPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4KICAgICAgPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIKICAgICAgICAgICAgeG1sbnM6dGlmZj0iaHR0cDovL25zLmFkb2JlLmNvbS90aWZmLzEuMC8iPgogICAgICAgICA8dGlmZjpPcmllbnRhdGlvbj4xPC90aWZmOk9yaWVudGF0aW9uPgogICAgICA8L3JkZjpEZXNjcmlwdGlvbj4KICAgPC9yZGY6UkRGPgo8L3g6eG1wbWV0YT4KTMInWQAAAXlJREFUKBW9kr1Kw1AUx5OYVWiRGqqLiPgIios4qg+QobhI7QdYH6CKk4IPUCRNQhFRHPIAnRykIIqre7cMsUMHp0Jt/J2ShiYWxx44/M/53/N17z2qkhLbtgtQl+g62kWvKpXKExiLFlsYzWbzCLgOw7A2HA6XVFU9Ez/i41A9tjAIutA0rVAqld4j/tl13cJoNLrHf5zEJjpBbvq+/zE5FIz8jWkuYXOfMEFETppPd5qV84ebX5Iu82azWd00zR+Zg+fmEdWZd/M8b6Hf7w9kvKDX661Eg3cdx9mK7DFQdBtDPlkhYRUI5J86uq4fgA4d6nR6sCzrOAiCN8MwduDvhAdF9tFX/lJrYNRbrdZiuVz2SDqHs/P5/EBQfOHlXOIkXsVQGMnicI2OZrFY/BZuWiSBtfLo6FPgZLxGmUymxrwNDj65ww3YzuVycleDQof4Ml6bONlFZdxpUpXF3MU+peIeuIx+McELeFutVjvg/5Jeneno+W3ELz3Rmg23qA6NAAAAAElFTkSuQmCC) no-repeat center;
+    background-size: 13px 18px;
+    background-position: 0 50%;
+    cursor: pointer;
+}
+
+
+/*麦克风，在被选元素后面做的操作*/
+
+.ipt_rec:after {
+    content: "";
+    display: inline-block;
+    height: 14px;
+    width: 0;
+    border-left: 1px solid #e7e7e7;
+    margin: 10px 0 10px 24px;
+    *margin: 10px 0 10px 24px;
+}
+
+.soutu-btn {
+    z-index: 1;
+    position: absolute;
+    right: 7px;
+    top: 50%;
+    margin-top: -8px;
+    *margin-top: -8px;
+    height: 16px;
+    width: 18px;
+    background: #fff url(https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/soutu/img/camera_new_5606e8f.png) no-repeat;
+    cursor: pointer;
+}
+
+
+/*百度一下按钮*/
+
+.subbtn {
+    width: 100px;
+    height: 34px;
+    color: #fff;
+    color: #fff\0;
+    _color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    border-bottom: 1px solid #2d78f4;
+    outline: medium;
+    -webkit-appearance: none;
+    -webkit-border-radius: 0;
+    cursor: pointer;
+    background: #3385ff;
+    border: 0;
+    margin-left: -4px;
+    margin-top: 0;
+    *margin-left: -5px;
+    *margin-top: 0;
+    padding: 0;
+    position: relative;
+    right: 4px;
+}
+
+
+/*更多下拉列表*/
+
+.bdbri {
+    width: 85px;
+    border-left: 1px solid #e7e7e7;
+    position: absolute;
+    background-color: #f9f9f9;
+    overflow: hidden;
+    z-index: 200;
+    right: 10px;
+    top: 5px;
+}
+
+.bdmainlink {
+    display: none;
+}
+
+.bdmainlink a {
+    margin-top: 10px;
+    *margin-top: 10px;
+    display: block;
+    text-align: center;
+    width: 66px;
+    height: 76px;
+    margin: 0 auto;
+    border-bottom: #f0f0f0 1px solid;
+    color: #666;
+    color: #666\0;
+    _color: #666;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: auto;
+}
+
+.bdbriwrapper a img {
+    margin-top: 5px;
+    *margin-top: 5px;
+}
+
+.bdbriimgitem_3 {
+    display: block;
+    color: #666;
+    width: 40px;
+    text-align: center;
+    margin-left: 15px;
+    margin-top: 12px;
+    *margin-left: 15px;
+    *margin-top: 12px;
+}
+
+.bdmainlink {
+    text-align: center;
+    padding-top: 15px;
+    font-size: 12px;
+    color: #000;
+}
+
+.bdnuarrow {
+    width: 0;
+    height: 0;
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: -10px;
+    left: 50px;
+    margin-left: -5px;
+    *margin-left: -5px;
+}
+
+.bdriarrow {
+    display: none;
+}
+
+.moreNav a:hover {
+    display: block;
+}
+
+.bdbrievenmore a {
+    color: #000;
+}
+
+
+/*底部的view*/
+
+.ftCon {
+    /*    height: 100px;
+    position: absolute;
+    bottom: 23px;
+    text-align: left;
+    width: 100%;
+    margin: 0 auto;
+    *margin: 0 auto;
+    z-index: 0;
+    overflow: hidden;*/
+    position: fixed;
+    top: 500px;
+    width: 723px;
+    height: 199px;
+    left: 300px;
+}
+
+.ftCon-Wrapper {
+    overflow: hidden;
+    margin: 0 auto;
+    *margin: 0 auto;
+    text-align: center;
+    height: 100px;
+    position: absolute;
+    bottom: 23px;
+    text-align: left;
+    width: 100%;
+    margin: 0 auto;
+    *margin: 0 auto;
+    z-index: 0;
+    overflow: hidden;
+}
+
+.qrcode {
+    display: inline-block;
+}
+
+.qrcode .qrcode-item {
+    float: left;
+}
+
+.qrcode .qrcode-item-1 .qrcode-img {
+    background-image: url(https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/home/img/qrcode/zbios_x2_9d645d9.png);
+    background-size: 60px 60px;
+}
+
+.qrcode .qrcode-item-1 .qrcode-img {
+    background: url(https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/home/img/qrcode/zbios_efde696.png) 0 0 no-repeat;
+}
+
+.qrcode .qrcode-img {
+    float: left;
+    width: 60px;
+    height: 60px;
+}
+
+.qrcode .qrcode-text {
+    float: left;
+    color: #999;
+    color: #999\0;
+    _color: #999;
+    margin: 8px 0 0 10px;
+    *margin: 8px 0 0 10px;
+}
+
+.qrcode .qrcode-text p {
+    text-align: left;
+}
+
+.qrcode .qrcode-item-2 {
+    margin-left: 33px;
+    *margin-left: 33px;
+    margin-left: 33px\9;
+}
+
+.qrcode .qrcode-item-2 .qrcode-img {
+    background-image: url(https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/home/img/qrcode/nuomi_x2_55dc5b7.png);
+    background-size: 60px 60px;
+}
+
+.qrcode .qrcode-item2 .qrcode-img {
+    background: url(https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/home/img/qrcode/nuomi_365eabd.png) 0 0 no-repeat;
+}
+
+.qrcode .qrcode-text b {
+    color: #666;
+    color: #666\0;
+    _color: #666;
+    font-weight: 700;
+}
+
+p {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    margin-top: 5px;
+    *margin-top: 5px;
+    margin-top: 5px\9;
+    font-size: 13px;
+}
+
+#lh #setf {
+    margin-left: 0;
+    margin-left: 0\9;
+    *margin-left: 0;
+}
+
+.ftConw {
+    display: inline-block;
+    text-align: left;
+    margin-left: 33px;
+    line-height: 22px;
+    position: relative;
+    top: -14px;
+}
+
+.ftConw a {
+    color: #999;
+    margin-left: 5px;
+}
+
+#cp {
+    color: #999;
+}
+
+#setf {
+    display: inline;
+}
+
+a:-webkit-any-link {
+    cursor: auto;
+}
+
+#cp .c-icon-icrlogo {
+    background-position: -600px -96px;
+    position: relative;
+    top: 3px;
+    width: 14px;
+    height: 17px;
+    display: inline-block;
+    overflow: hidden;
+    background: url(https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/global/img/icons_5859e57.png) no-repeat;
+}
+
+
+/*tab切换部分*/
+
+.changeTabDiv {
+    width: 100%;
+    /*background-color: red;*/
+    margin-top: 70px;
+    position: relative;
+    z-index: 300;
+}
+
+.changeTabDiv .changetabContent {
+    width: 820px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+.changetabContent .TabHeader .tabUl {
+    display: block;
+    width: 100%;
+    height: 40px;
+    padding: 0px;
+    border-bottom: 1px solid #ddd;
+}
+
+.changetabContent .TabHeader .tabUl li {
+    width: 100px;
+    height: 40px;
+    background: rgba(255, 255, 255, 1);
+    margin: 0;
+    line-height: 40px;
+}
+
+.changetabContent .TabHeader .tabUl .firstTab .recomAlin {
+    text-decoration: none;
+    color: #000;
+    /* padding: 12px; */
+    display: block;
+    width: 100%;
+    height: 100%;
+    line-height: 40px;
+    text-align: center;
+}
+
+.changetabContent .TabHeader .tabUl .secondTab .navigationLin {
+    text-decoration: none;
+    color: #000;
+    /* padding: 12px; */
+    display: block;
+    width: 100%;
+    height: 100%;
+    line-height: 40px;
+    text-align: center;
+}
+
+.changetabContent .TabHeader .tabUl .thirdTab .shoppingLin {
+    text-decoration: none;
+    color: #000;
+    /* padding: 12px; */
+    display: block;
+    width: 100%;
+    height: 100%;
+    line-height: 40px;
+    text-align: center;
+}
+
+.showLinTitle {
+    background-color: rgba(0, 0, 0, 0.1);
+    color: #fff;
+}
+
+.changetabContent .TabHeader {
+    position: relative;
+}
+
+
+/*推荐下拉的*/
+
+.changetabContent .TabHeader .tabUl li .Recommend {
+    position: absolute;
+    width: 820px;
+    top: 41px;
+    background: rgba(255, 255, 255, 1);
+    display: block;
+}
+
+.changetabContent .TabHeader .tabUl li .recommendLeft {
+    float: left;
+    display: block;
+    width: 70%;
+    height: 100%;
+    /*background-color: green;*/
+}
+
+.changetabContent .TabHeader .tabUl li .recommendLeft ul {
+    display: block;
+    width: 100%;
+    height: 100%;
+    list-style: none;
+    /*background-color: purple;*/
+}
+
+.changetabContent .TabHeader .tabUl li .recommendLeft ul li {
+    width: 100%;
+    height: 100%;
+    margin-left: -40px;
+}
+
+.changetabContent .TabHeader .tabUl .firstTab,
+.changetabContent .TabHeader .tabUl .secondTab,
+.changetabContent .TabHeader .tabUl .thirdTab {
+    float: left;
+    list-style: none;
+}
+
+.changetabContent .TabHeader .tabUl .firstTab .recommendReight {
+    float: right;
+    width: 30%;
+    /*background-color: blue;*/
+}
+
+.changetabContent .TabHeader .tabUl .firstTab .recommendReight .picinews {
+    font-size: 13px;
+    width: 100%;
+    margin-left: -40px;
+}
+
+.changetabContent .TabHeader .tabUl .firstTab .recommendReight .picinews li {
+    width: 50%;
+    list-style: none;
+    float: left;
+}
+
+.changetabContent .TabHeader .tabUl .firstTab .recommendReight .picinews li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.changetabContent .TabHeader .tabUl .firstTab .recommendReight h4 {
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
+.recommendLeft .morenews .list .listItem {
+    width: 100%;
+    height: 120px;
+    padding: 10px 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+.recommendLeft .morenews .list .listItem img {
+    width: 178px;
+    height: 118px;
+    float: left;
+}
+
+.recommendLeft .morenews .list .listItem h3 {
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.recommendLeft .morenews .list .listItem p {
+    float: left;
+    margin-top: 36px;
+    margin-left: -254px;
+}
+
+
+/*导航下拉的*/
+
+.secondTab .navigationDiv {
+    position: absolute;
+    width: 820px;
+    top: 41px;
+    left: 0px;
+    background: #fff;
+    padding: 10px;
+    display: none;
+    box-sizing: border-box;
+}
+
+.secondTab .navigationDiv h4 {
+    padding: 0;
+    margin: 0px;
+    text-align: left;
+    clear: left;
+}
+
+.secondTab .navigationDiv .navlin {
+    list-style: none;
+    float: left;
+    margin-left: -30px;
+}
+
+.secondTab .navigationDiv .navlin li {
+    float: left;
+    margin-bottom: 1px;
+    margin-right: 1px;
+}
+
+.secondTab .navigationDiv .navlin li a {
+    text-decoration: none;
+    color: #000;
+    background: rgba(0, 0, 0, 0.1);
+    display: block;
+}
+
+
+/*购物下拉*/
+
+.thirdTab .shoppingDiv {
+    position: absolute;
+    width: 820px;
+    top: 41px;
+    left: 0px;
+    background: #fff;
+    padding: 10px;
+    box-sizing: border-box;
+    display: none;
+}
+
+.thirdTab .shoppingDiv .shopUl {
+    list-style: none;
+    display: block;
+    width: 100%;
+    height: 100%;
+    /* margin-left: 0px; */
+    margin-left: -50px;
+}
+
+.thirdTab .shoppingDiv .shopUl .shopLi {
+    box-sizing: content-box;
+    display: block;
+    width: 23%;
+    height: 100%;
+    float: left;
+    margin-left: 15px;
+}
+
+.thirdTab .shoppingDiv .shopdiv {
+    width: 192px;
+    height: 310px;
+    /*background: green;*/
+}
+
+.thirdTab .shoppingDiv .shopdiv a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: #4a4a4a;
+}
+
+.thirdTab .shoppingDiv .shopdiv a img {
+    width: 174px;
+    height: 174px;
+}
+
+.thirdTab .shoppingDiv .shopdiv a p {
+    line-height: 20px;
+    text-align: left;
+    margin: 5px;
+}
+
+.thirdTab .shoppingDiv .shopdiv a .priceDiv {
+    text-align: left;
+    margin-left: 5px;
+}
+
+.thirdTab .shoppingDiv .shopdiv a .fanDiv {
+    text-align: left;
+    margin-left: 5px;
+    margin-top: -9px;
+}
+
+.thirdTab .shoppingDiv .shopdiv a .priceDiv .or-price {
+    text-decoration: line-through;
+}
+
+.thirdTab .shoppingDiv .shopdiv a .fanDiv .backPoint {
+    font-size: 12px;
+    border: 1px solid #ff0000;
+    padding: 3px;
+    border-radius: 5px;
+    color: #ff0000;
+    margin-left: 5px;
+}
+
+.thirdTab .shoppingDiv .shopdiv a .fanDiv .mall {
+    font-size: 13px;
+    border: 1px solid #ddd;
+    padding: 3px;
+    border-radius: 5px;
+    margin-left: 35px;
+}
+
+#backToTop {
+    width: 50px;
+    height: 50px;
+    background: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    top: 600px;
+    right: 120px;
+    display: none;
+    color: #fff;
+}
